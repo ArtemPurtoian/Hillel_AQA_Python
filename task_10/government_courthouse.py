@@ -8,6 +8,14 @@ class Courthouse(Government):
                          building_material, department)
         self.number_of_courtrooms = number_of_courtrooms
 
+    @staticmethod
+    def courtrooms_clean():
+        print("The courtrooms have been cleaned.")
+
+    @staticmethod
+    def no_judges():
+        print("All judges are out of the court.")
+
 
 if __name__ == '__main__':
     primorsky_courthouse = Courthouse(200, 3, False, 'aerated concrete', 'Judicial', 5)
@@ -16,3 +24,7 @@ if __name__ == '__main__':
     print(primorsky_courthouse.description())
     print(primorsky_courthouse.has_elevator)
     print(primorsky_courthouse.building_material)
+
+    primorsky_courthouse.change_department('Ministry of Justice')
+    primorsky_courthouse.courtrooms_clean()
+    primorsky_courthouse.no_judges()

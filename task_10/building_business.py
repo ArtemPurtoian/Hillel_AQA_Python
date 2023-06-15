@@ -8,5 +8,9 @@ class Business(Building):
                          building_material)
         self.has_parking_lot = has_parking_lot
 
+    def expand_area(self, new_area):
+        print(f"Our commercial building area was expanded to {new_area}.")
+        self.building_area = new_area
+
     def description(self):
         return "Commercial Building"

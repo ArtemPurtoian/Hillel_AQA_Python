@@ -8,5 +8,9 @@ class Government(Building):
                          building_material)
         self.department = department
 
+    def change_department(self, new_department):
+        self.department = new_department
+        print(f"From now on this building belongs to the {new_department}.")
+
     def description(self):
         return "Government Building"

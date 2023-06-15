@@ -8,5 +8,13 @@ class Residential(Building):
                          building_material)
         self.has_garden = has_garden
 
+    @staticmethod
+    def clean_garden():
+        print("The garden looks clean now!")
+
+    @staticmethod
+    def clean_floors():
+        print("All floors are clean.")
+
     def description(self):
         return "Residential Building"

@@ -9,6 +9,14 @@ class Building(ABC):
         self.has_elevator = has_elevator
         self.building_material = building_material
 
+    @staticmethod
+    def stop_elevator():
+        print("The elevator is stopped due to maintenance.")
+
+    @staticmethod
+    def start_elevator():
+        print("The elevator works.")
+
     @abstractmethod
     def description(self):
         pass
