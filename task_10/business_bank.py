@@ -8,12 +8,14 @@ class Bank(Business):
                          building_material, has_parking_lot)
         self.bank_name = bank_name
 
-    def bank_name(self):
-        return self.bank_name
-
 
 if __name__ == '__main__':
     privatbank = Bank(30, 1, False, 'bricks', True, 'Privat Bank')
 
-    print(privatbank.description())
     print(privatbank.building_area)
+    print(privatbank.number_of_floors)
+    print(privatbank.has_elevator)
+    print(privatbank.building_material)
+    print(privatbank.has_parking_lot)
+    print(privatbank.bank_name)
+    print(privatbank.description())

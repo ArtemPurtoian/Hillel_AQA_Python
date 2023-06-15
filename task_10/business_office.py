@@ -8,9 +8,6 @@ class Office(Business):
                          building_material, has_parking_lot)
         self.number_of_offices = number_of_offices
 
-    def number_of_offices(self):
-        return self.number_of_offices
-
 
 if __name__ == '__main__':
     consulting = Office(100, 2, False, 'concrete', True, 4)

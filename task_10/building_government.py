@@ -8,8 +8,5 @@ class Government(Building):
                          building_material)
         self.department = department
 
-    def department(self):
-        return self.department
-
     def description(self):
         return "Government Building"

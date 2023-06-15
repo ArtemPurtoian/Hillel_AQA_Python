@@ -8,9 +8,6 @@ class Courthouse(Government):
                          building_material, department)
         self.number_of_courtrooms = number_of_courtrooms
 
-    def courtrooms(self):
-        return self.courtrooms
-
 
 if __name__ == '__main__':
     primorsky_courthouse = Courthouse(200, 3, False, 'aerated concrete', 'Judicial', 5)

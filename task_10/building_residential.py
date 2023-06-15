@@ -8,8 +8,5 @@ class Residential(Building):
                          building_material)
         self.has_garden = has_garden
 
-    def has_garden(self):
-        return self.has_garden
-
     def description(self):
         return "Residential Building"

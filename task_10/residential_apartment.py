@@ -8,9 +8,6 @@ class ApartmentBuilding(Residential):
                          building_material, has_garden)
         self.number_of_apartments = number_of_apartments
 
-    def number_of_apartments(self):
-        return self.number_of_apartments
-
 
 if __name__ == '__main__':
     london_aprt = ApartmentBuilding(300, 10, True, 'aerated concrete', True, 80)

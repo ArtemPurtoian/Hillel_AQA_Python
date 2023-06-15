@@ -11,15 +11,6 @@ class House(Residential):
         self.has_swimming_pool = has_swimming_pool
         self.has_garage = has_garage
 
-    def number_of_bedrooms(self):
-        return self.number_of_bedrooms
-
-    def has_swimming_pool(self):
-        return self.has_swimming_pool
-
-    def has_garage(self):
-        return self.has_garage
-
 
 if __name__ == '__main__':
     my_house = House(70, 2, False, 'bricks', True, 3, True, True)

@@ -10,12 +10,6 @@ class Prison(Government):
         self.number_of_cells = number_of_cells
         self.max_prisoners = max_prisoners
 
-    def number_of_cells(self):
-        return self.number_of_cells
-
-    def max_prisoners(self):
-        return self.max_prisoners
-
 
 if __name__ == '__main__':
     odesa_prison = Prison(300, 3, True, 'concrete', 'Ministry of Justice', 100, 500)
